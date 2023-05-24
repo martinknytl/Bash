@@ -1,5 +1,5 @@
-All paths work from home address ```/Users/knedlo```
+All paths work from the home address ```/Users/knedlo```
 
-###a
-##a
-#a
+### a
+## a
+# a
