@@ -32,7 +32,7 @@ toss = trashed
 ```
 function fnd() { find . -maxdepth 2 -iname "*$1*"; }
 ```
-backslash removes all aliases, colours etc. ```\ls```
+backslash ignore all aliases, colours etc. ```\ls```
 ```
 nano ~/.bashrc
 ```
