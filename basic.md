@@ -55,7 +55,9 @@ gedit
 
 to start a new txt file
 
-```vim FILENAME.txt <ENTER>```
+```
+vim FILENAME.txt <ENTER>
+```
 
 to open tutorial:
 
@@ -63,9 +65,8 @@ to open tutorial:
 vimtutor <ENTER>
 ```
 
-exit "esc" ":" "q" "!"
+exit ```<esc> :q!```
 
-"esc" botton
 
 "daw" delete whole word
 
