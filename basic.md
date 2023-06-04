@@ -51,8 +51,17 @@ nano
 red
 gedit
 
-```vi newfile```
-```vimtutor```
+## VIM editor
+
+to start a new txt file
+
+```vim FILENAME.txt <ENTER>```
+
+to open tutorial:
+
+```
+vimtutor <ENTER>
+```
 
 exit "esc" ":" "q" "!"
 
