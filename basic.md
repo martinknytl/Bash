@@ -66,9 +66,16 @@ vimtutor <ENTER>
 ```
 
 exit ```<esc> :q!```
+save ```<esc> :wq```
 
+in normal mode ```<esc>```:
 
-"daw" delete whole word
+to type inserted text before the cursor ```i```
+to type appended text after the line ```A```
+to delete a letter ```x```
+to delete whole word ```dw```
+to delete to the end of the line ```d$```
+
 
 "d" + "arrpw" more functions
 
