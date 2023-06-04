@@ -65,17 +65,33 @@ to open tutorial:
 vimtutor <ENTER>
 ```
 
-exit ```<esc> :q!```
-save ```<esc> :wq```
+exit ```<esc> :q! <ENTER>```
+
+save ```<esc> :wq <ENTER>```
 
 in normal mode ```<esc>```:
 
 to type inserted text before the cursor ```i```
+
 to type appended text after the line ```A```
+
 to delete a letter ```x```
-to delete whole word ```dw```
+
+to delete a whole word behind cursor ```dw``` or ```de```
+
 to delete to the end of the line ```d$```
 
+to move 1 word forward ```w``` or ```e```
+
+to move on the very beginning of the line ```0```
+
+to delete the whole line ```dd```
+
+undo ```u```
+
+undo all changes on a line ```U```
+
+redo ```<control> r```
 
 "d" + "arrpw" more functions
 
