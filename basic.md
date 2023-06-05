@@ -73,6 +73,16 @@ save ```<esc> :wq <ENTER>```
 
 ```<esc>``` normal mode
 
+```/``` followed by a phrase searches FORWARD for the phrase. Then ```n``` to find the next occurrence in the same direction or ```N``` to search in the opposite direction. <CTRL-O> takes you back to older positions, <CTRL-I> to newer positions.
+
+```%```
+
+```:s/old/new``` to substitute word "old" by "new" in the same line where is cursor.
+
+```:%/old/new/g``` to substitute every occurrence in the whole file.
+
+```:%/old/new/gc``` to find every occurrence in the whole file, with a prompt whether to substitute or not.
+
 ```0``` to move on the very beginning of the line 
 
 ```A``` to type appended text after the line 
@@ -86,6 +96,14 @@ save ```<esc> :wq <ENTER>```
 ```dd```, ```cc``` to delete, change the whole line 
 
 ```dw``` or ```de```, ```cw``` or ```ce``` to delete, change a whole word behind cursor 
+
+<CTRL-G> displays your location in the file and the file status.
+
+```gg``` moves to the first line.
+
+```number G```  moves to that line number.
+ 
+```G```  moves to the end of the file.
 
 ```i``` to type inserted text before the cursor 
 
