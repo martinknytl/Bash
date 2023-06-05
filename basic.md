@@ -69,29 +69,41 @@ exit ```<esc> :q! <ENTER>```
 
 save ```<esc> :wq <ENTER>```
 
-in normal mode ```<esc>```:
+```<control> r``` redo 
 
-to type inserted text before the cursor ```i```
+```<esc>``` normal mode
 
-to type appended text after the line ```A```
+```0``` to move on the very beginning of the line 
 
-to delete a letter ```x```
+```A``` to type appended text after the line 
 
-to delete a whole word behind cursor ```dw``` or ```de```
+```c``` change operator
 
-to delete to the end of the line ```d$```
+```d``` delete operator
 
-to move 1 word forward ```w``` or ```e```
+```d$``` to delete to the end of the line 
 
-to move on the very beginning of the line ```0```
+```dd``` to delete the whole line 
 
-to delete the whole line ```dd```
+```dw``` or ```de``` to delete a whole word behind cursor 
 
-undo ```u```
+```i``` to type inserted text before the cursor 
 
-undo all changes on a line ```U```
+```p``` paste deleted text 
 
-redo ```<control> r```
+```r``` replace character
+
+```u``` undo
+
+```U``` undo all changes on a line
+
+```x``` to delete a letter
+
+```w``` or ```e``` to move 1 word forward 
+
+
+
+
 
 "d" + "arrpw" more functions
 
