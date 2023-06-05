@@ -75,7 +75,7 @@ save ```<esc> :wq <ENTER>```
 
 ```/``` followed by a phrase searches FORWARD for the phrase. Then ```n``` to find the next occurrence in the same direction or ```N``` to search in the opposite direction. <CTRL-O> takes you back to older positions, <CTRL-I> to newer positions.
 
-```%```
+```%``` while the cursor is on a (,),[,],{, or } goes to its match.
 
 ```:s/old/new``` to substitute word "old" by "new" in the same line where is cursor.
 
