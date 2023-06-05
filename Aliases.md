@@ -1,5 +1,3 @@
-All paths work from the home address ```/Users/knedlo```
-
 ```
-alias hesla='cd Google\ Drive/notas_HP/Dokumenty/jmena_hesla'
+alias hesla='cd /Users/martinknytl/Google\ Drive/My\ Drive/notas_HP/jmena_hesla'
 ```
