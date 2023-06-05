@@ -73,7 +73,7 @@ save ```<esc> :wq <ENTER>```
 
 ```<esc>``` normal mode
 
-```/``` followed by a phrase searches FORWARD for the phrase. Then ```n``` to find the next occurrence in the same direction or ```N``` to search in the opposite direction. <CTRL-O> takes you back to older positions, <CTRL-I> to newer positions.
+```/``` followed by a phrase searches FORWARD for the phrase. Then ```n``` to find the next occurrence in the same direction or ```N``` to search in the opposite direction. ```<CTRL-O>``` takes you back to older positions, ```<CTRL-I>``` to newer positions.
 
 ```%``` while the cursor is on a (,),[,],{, or } goes to its match.
 
