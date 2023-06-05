@@ -81,11 +81,11 @@ save ```<esc> :wq <ENTER>```
 
 ```d``` delete operator
 
-```d$``` to delete to the end of the line 
+```d$```, ```c$``` to delete, change the end of the line 
 
-```dd``` to delete the whole line 
+```dd```, ```cc``` to delete, change the whole line 
 
-```dw``` or ```de``` to delete a whole word behind cursor 
+```dw``` or ```de```, ```cw``` or ```ce``` to delete, change a whole word behind cursor 
 
 ```i``` to type inserted text before the cursor 
 
