@@ -77,6 +77,14 @@ save ```<esc> :wq <ENTER>```
 
 ```/``` followed by a phrase searches FORWARD for the phrase. Then ```n``` to find the next occurrence in the same direction or ```N``` to search in the opposite direction. ```<CTRL-O>``` takes you back to older positions, ```<CTRL-I>``` to newer positions.
 
+   ```:set ic``` 'ignorecase' ignore upper/lower case when searching
+
+   ```:set is``` 'incsearch' show partial matches for a search phrase
+
+   ```:set hls``` 'hlsearch' highlight all matching phrases
+   
+   "no" to switch an option off:   ```:set noic```, ```:set nois```, ```:set nohls```
+
 ```%``` while the cursor is on a (,),[,],{, or } goes to its match.
 
 ```0``` to move on the very beginning of the line 
