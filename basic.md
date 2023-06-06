@@ -81,6 +81,8 @@ save ```<esc> :wq <ENTER>```
 
 ```0``` to move on the very beginning of the line 
 
+```$``` to move on the end of the line
+
 ```A``` to type appended text after the line 
 
 ```c``` change operator
@@ -120,6 +122,18 @@ save ```<esc> :wq <ENTER>```
 ```:%/old/new/g``` to substitute every occurrence in the whole file.
 
 ```:%/old/new/gc``` to find every occurrence in the whole file, with a prompt whether to substitute or not.
+
+```o```
+
+```O```
+
+```a```
+
+```R```
+
+```y```
+
+```p```
 
 ### external commands
 
