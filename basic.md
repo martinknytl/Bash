@@ -143,8 +143,8 @@ save ```<esc> :wq <ENTER>```
 
 ```y``` operator yanks (copies) text, ```p``` puts (pastes) it.
 
-```/ignore``` this command does not work but why?
-
+```:help``` help (also ```:help x```; ```:help v``` etc.)
+   
 ### external commands
 
 ```:!``` external command e.g. ```:! ls```
