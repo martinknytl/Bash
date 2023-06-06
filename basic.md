@@ -69,6 +69,8 @@ exit ```<esc> :q! <ENTER>```
 
 save ```<esc> :wq <ENTER>```
 
+### motions in normal mode
+
 ```<control> r``` redo 
 
 ```<esc>``` normal mode
@@ -76,12 +78,6 @@ save ```<esc> :wq <ENTER>```
 ```/``` followed by a phrase searches FORWARD for the phrase. Then ```n``` to find the next occurrence in the same direction or ```N``` to search in the opposite direction. ```<CTRL-O>``` takes you back to older positions, ```<CTRL-I>``` to newer positions.
 
 ```%``` while the cursor is on a (,),[,],{, or } goes to its match.
-
-```:s/old/new``` to substitute word "old" by "new" in the same line where is cursor.
-
-```:%/old/new/g``` to substitute every occurrence in the whole file.
-
-```:%/old/new/gc``` to find every occurrence in the whole file, with a prompt whether to substitute or not.
 
 ```0``` to move on the very beginning of the line 
 
@@ -97,7 +93,7 @@ save ```<esc> :wq <ENTER>```
 
 ```dw``` or ```de```, ```cw``` or ```ce``` to delete, change a whole word behind cursor 
 
-<CTRL-G> displays your location in the file and the file status.
+```<CTRL-G>``` displays your location in the file and the file status.
 
 ```gg``` moves to the first line.
 
@@ -117,7 +113,25 @@ save ```<esc> :wq <ENTER>```
 
 ```x``` to delete a letter
 
-```w``` or ```e``` to move 1 word forward 
+```w``` or ```e``` to move 1 word forward
+
+```:s/old/new``` to substitute word "old" by "new" in the same line where is cursor.
+
+```:%/old/new/g``` to substitute every occurrence in the whole file.
+
+```:%/old/new/gc``` to find every occurrence in the whole file, with a prompt whether to substitute or not.
+
+### external commands
+
+```:!``` external command e.g. ```:! ls```
+
+```:w FILENAME``` writes the current Vim file to disk with name FILENAME.
+
+```:r FILENAME``` retrieves disk file FILENAME and puts it below the cursor position.
+
+```v```  motion  ```:w FILENAME```  saves the Visually selected lines in file FILENAME.
+
+```:r !ls``` reads the output of the ls command and puts it below the cursor position.
 
 
 
