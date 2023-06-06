@@ -83,6 +83,8 @@ save ```<esc> :wq <ENTER>```
 
 ```$``` to move on the end of the line
 
+```a``` to insert text AFTER the cursor
+
 ```A``` to type appended text after the line 
 
 ```c``` change operator
@@ -103,15 +105,17 @@ save ```<esc> :wq <ENTER>```
  
 ```G```  moves to the end of the file.
 
-```i``` to type inserted text before the cursor 
+```i``` insert mode before the cursor 
 
-```p``` paste deleted text 
+```p``` pastes text
 
 ```r``` replace character
 
 ```u``` undo
 
 ```U``` undo all changes on a line
+
+```v``` visual mode for marking the text
 
 ```x``` to delete a letter
 
@@ -123,17 +127,15 @@ save ```<esc> :wq <ENTER>```
 
 ```:%/old/new/gc``` to find every occurrence in the whole file, with a prompt whether to substitute or not.
 
-```o```
+```o``` to open a line BELOW the cursor and start Insert mode.
 
-```O```
+```O``` to open a line ABOVE the cursor
 
-```a```
+```R``` replaces mode until  <ESC>  is presse
 
-```R```
+```y``` operator yanks (copies) text, ```p``` puts (pastes) it.
 
-```y```
-
-```p```
+```/ignore``` this command does not work but why?
 
 ### external commands
 
@@ -142,12 +144,10 @@ save ```<esc> :wq <ENTER>```
 ```:w FILENAME``` writes the current Vim file to disk with name FILENAME.
 
 ```:r FILENAME``` retrieves disk file FILENAME and puts it below the cursor position.
-
+ 
 ```v```  motion  ```:w FILENAME```  saves the Visually selected lines in file FILENAME.
 
 ```:r !ls``` reads the output of the ls command and puts it below the cursor position.
-
-
 
 
 
