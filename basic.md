@@ -158,12 +158,13 @@ save ```<esc> :wq <ENTER>```
 ```:r !ls``` reads the output of the ls command and puts it below the cursor position.
 
 ### my vmrc file
-   
+
+open vimrc file:
 ```
    vi ~/.vimrc
 ```
-   
-   
+
+wriing of the commands
 ```
 set incsearch
 set hls
