@@ -191,11 +191,11 @@ Never run on the head, which is 'youname@infoserv'.
 
 To go into one of the machine, do `rsh info113` or `rsh info114` 
 
-`>` = “send output to . . . ”
+`>` = “ send . . . output to `>` . . . ”
    
-`>>` = “append/insert output onto the end of . . . ” 
+`>>` = “append/insert . . . output onto `>>` the end of . . . ” 
    
-`<` = “take input from . . . ”
+`<` = “take . . . input from `<` . . . ”
  
 `|` = pipe = take the output of one command and use it as input for another command
     
