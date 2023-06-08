@@ -161,10 +161,10 @@ save ```<esc> :wq <ENTER>```
 
 open vimrc file:
 ```
-   vi ~/.vimrc
+vi ~/.vimrc
 ```
 
-wriing of the commands
+writing the commands
 ```
 set incsearch
 set hls
