@@ -191,15 +191,29 @@ Never run on the head, which is 'youname@infoserv'.
 
 To go into one of the machine, do `rsh info113` or `rsh info114` 
 
+`>` = “send output to . . . ”
+   
+`>>` = “append/insert output onto the end of . . . ” 
+   
+`<` = “take input from . . . ”
+ 
+`|` = pipe = take the output of one command and use it as input for another command
+    
 `bg` = begin job again
+   
+`cat` = print the content of a file to the screen
 
-`Command .` = cancel a command type
+`cat -n` = print the content of a file with number of the output lines, starting at 1
 
 `cd ` \<directory path\> = change a directory
+   
+`cd` with no argument = go to home directory
 
 `clear` = clean the screen
 
-`cp original.txt duplicate.txt` = copy = copy and rename
+`Command .` = cancel a command type
+
+`cp original.txt duplicate.txt` = copy = copy file "original" to "duplicate
 
 `du -sh dir1` = how large directory \<dir1\> is
 
@@ -210,6 +224,8 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 `kill` \<job name\> or \<number of process\> or \<%order numberof process\> = Kill a job
 
 `logout`, `exit` or `control` + `d` = logout
+   
+`lpr` = print
 
 `ls` = list files = view the contents of a current directory
 
@@ -220,6 +236,8 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 `ls --help` = help about ls
 
 `mkdir` \<directory name\> = make a directory
+   
+`more` = show partial file contents
 
 `mv` \<directory path\> \<directory pathII\> = moving folder to another folder
 
@@ -232,10 +250,8 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 `rm -f `\<filename\> = remove a directory 
 
 `rm -rf`\<filename\> = remove a file type
-
-`cat` 
-
-`cat -n` does not work
+   
+`rm *` = remove all files!
 
 `grep`
 
@@ -246,11 +262,13 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 ### keyboard shortcuts
 `ctrl` + `a` = send prompt on the beginning of line
 
+`ctrl` + `d` = 
+
 `ctrl` + `e` = send prompt on the end of line
 
 `ctrl` + `c` = cancel job, leave emacs
 
-`ctrl` + `x` = save file
+`ctrl` + `x` = save the emacs file
 
 `ctrl` + `z` = stop job temporalily
 
