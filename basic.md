@@ -15,9 +15,6 @@ alias grep='grep -P --color=auto'
 ```
 cmd -flags --flags arg arg arg
 
-pwd
-cd
-ls
 file names - case sensitivity
 top 10  ommands: cp, mv, rm, top, rmdir, mkdir, cat, more
 zip, gy, by, xz, tgz
@@ -77,21 +74,31 @@ save ```<esc> :wq <ENTER>```
 
 ```/``` followed by a phrase searches FORWARD for the phrase. Then ```n``` to find the next occurrence in the same direction or ```N``` to search in the opposite direction. ```<CTRL-O>``` takes you back to older positions, ```<CTRL-I>``` to newer positions.
 
-   ```:set ic``` 'ignorecase' ignore upper/lower case when searching
+```?``` search backward for the phrase
 
-   ```:set is``` 'incsearch' show partial matches for a search phrase
+```:g/search/s//replace/g``` find and replace
 
-   ```:set hls``` 'hlsearch' highlight all matching phrases
+```:set ic``` 'ignorecase' ignore upper/lower case when searching
+
+```:set is``` 'incsearch' show partial matches for a search phrase
+
+```:set hls``` 'hlsearch' highlight all matching phrases
+   
+```:set nu``` show line numbers
    
    "no" to switch an option off:   ```:set noic```, ```:set nois```, ```:set nohls```
 
 ```%``` while the cursor is on a (,),[,],{, or } goes to its match.
+
+```~``` change case (upper/lower case letters)
 
 ```0``` to move on the very beginning of the line 
 
 ```$``` to move on the end of the line
 
 ```a``` to insert text AFTER the cursor
+
+```b``` move backward a word
 
 ```A``` to type appended text after the line 
 
@@ -113,7 +120,11 @@ save ```<esc> :wq <ENTER>```
  
 ```G```  moves to the end of the file.
 
+```H``` move to top of screen
+
 ```i``` insert mode before the cursor 
+
+```L``` move to bottom of screen
 
 ```p``` pastes text
 
@@ -127,7 +138,7 @@ save ```<esc> :wq <ENTER>```
 
 ```x``` to delete a letter
 
-```w``` or ```e``` to move 1 word forward
+```w``` or ```e``` move 1 word forward
 
 ```:s/old/new``` to substitute word "old" by "new" in the same line where is cursor.
 
@@ -255,8 +266,10 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
    
 `rm *` = remove all files!
 
-`grep`
-
+`grep` searched_word \<folder/file name\>
+   
+`grep` --colour=auto searched_word \<folder/file name\>
+   
 `less`
 
 `tee`
@@ -273,7 +286,7 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 
 <control> + `k` = delete the end of the line
    
-<control> + `u` = delete the line
+<control> + `u` = delete the line before the prompt
    
 <control> + `w` = delete backward to the beginning of the word
 
