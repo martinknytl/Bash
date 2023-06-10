@@ -290,7 +290,7 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 
 `tee`
 
-### keyboard shortcuts`
+### keyboard shortcuts
  
 \<control\> + `a` = send prompt on the beginning of line
 
@@ -309,6 +309,8 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 \<control\> + `x` = save the emacs file
 
 \<control\> + `z` = stop job temporalily
+   
+\<option\> + \<Left Arrow\> move the prompt backward one word
 
 
 
