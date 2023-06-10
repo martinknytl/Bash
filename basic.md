@@ -292,23 +292,23 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 
 ### keyboard shortcuts`
  
-<control> + `a` = send prompt on the beginning of line
+\<control\> + `a` = send prompt on the beginning of line
 
-<control> + `d` = 
+\<control\> + `d` = 
 
-<control> + `e` = send prompt on the end of line
+\<control\> + `e` = send prompt on the end of line
 
-<control> + `c` = cancel job, leave emacs
+\<control\> + `c` = cancel job, leave emacs
 
-<control> + `k` = delete the end of the line
+\<control\> + `k` = delete the end of the line
    
-<control> + `u` = delete the line before the prompt
+\<control\> + `u` = delete the line before the prompt
    
-<control> + `w` = delete backward to the beginning of the word
+\<control\> + `w` = delete backward to the beginning of the word
 
-<control> + `x` = save the emacs file
+\<control\> + `x` = save the emacs file
 
-<control> + `z` = stop job temporalily
+\<control\> + `z` = stop job temporalily
 
 
 
