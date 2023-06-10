@@ -310,7 +310,7 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 
 \<control\> + `z` = stop job temporalily
    
-\<option\> + \<Left Arrow\> move the prompt backward one word
+\<option\> + \<Left/Right Arrow\> move the prompt backward/forward one word
 
 
 
