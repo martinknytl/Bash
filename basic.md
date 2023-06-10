@@ -243,6 +243,8 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 
 `mv` \<folder/file name\> \<folder/file_nameII\> = renaming folder/file
 
+`ps` = view of jobs currently running
+
 `pwd` = print working directory = what directory you are in  
 
 `rm filename` = remove filename
@@ -259,24 +261,25 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 
 `tee`
 
-### keyboard shortcuts
-`ctrl` + `a` = send prompt on the beginning of line
+### keyboard shortcuts`
+ 
+<control> + `a` = send prompt on the beginning of line
 
-`ctrl` + `d` = 
+<control> + `d` = 
 
-`ctrl` + `e` = send prompt on the end of line
+<control> + `e` = send prompt on the end of line
 
-`ctrl` + `c` = cancel job, leave emacs
+<control> + `c` = cancel job, leave emacs
 
-`ctrl` + `k` = delete the end of the line
+<control> + `k` = delete the end of the line
    
-`ctrl` + `u` = delete the line
+<control> + `u` = delete the line
    
-`ctrl` + `w` = delete backward to the beginning of the word
+<control> + `w` = delete backward to the beginning of the word
 
-`ctrl` + `x` = save the emacs file
+<control> + `x` = save the emacs file
 
-`ctrl` + `z` = stop job temporalily
+<control> + `z` = stop job temporalily
 
 
 
