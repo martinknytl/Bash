@@ -276,15 +276,15 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 
 `rm filename` = remove filename
 
-`rm -f `\<filename\> = remove a directory 
+`rm -f filename` = remove a directory 
 
-`rm -rf`\<filename\> = remove a file type
+`rm -rf filename` = remove a file type
    
 `rm *` = remove all files!
 
-`grep` searched_word \<folder/file name\>
+`grep searched_word folder/file name` = search a file
    
-`grep` --colour=auto searched_word \<folder/file name\>
+`grep --colour=auto searched_word \<folder/file name` = search a file highlighted with colour
    
 `less`
 
