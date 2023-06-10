@@ -268,6 +268,12 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 
 `ctrl` + `c` = cancel job, leave emacs
 
+`ctrl` + `k` = delete the end of the line
+   
+`ctrl` + `u` = delete the line
+   
+`ctrl` + `w` = delete backward to the beginning of the word
+
 `ctrl` + `x` = save the emacs file
 
 `ctrl` + `z` = stop job temporalily
