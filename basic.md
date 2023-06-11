@@ -197,8 +197,6 @@ set incsearch
 set hls
 ```
 
-"d" + "arrpw" more functions
-
 # Unix 
    
 ## Basic terms
