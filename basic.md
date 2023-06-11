@@ -258,7 +258,7 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 
 `ls -a` list files including hidden files with beginning ., ..
    
-`ls -l detailed list files
+`ls -l` detailed list files
 
 `ls -lh` detailed list files
 
