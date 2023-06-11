@@ -64,7 +64,7 @@ nano
 red
 gedit
 
-## VIM editor
+# VIM editor
 
 to start a new txt file
 
@@ -82,7 +82,7 @@ exit ```<esc> :q! <ENTER>```
 
 save ```<esc> :wq <ENTER>```
 
-### motions in normal mode
+## motions in normal mode
 
 ```<control> r``` redo 
 
@@ -172,7 +172,7 @@ save ```<esc> :wq <ENTER>```
 
 ```:help``` help (also ```:help x```; ```:help v``` etc.)
    
-### external commands
+## external commands
 
 ```:!``` external command e.g. ```:! ls```
 
@@ -184,7 +184,7 @@ save ```<esc> :wq <ENTER>```
 
 ```:r !ls``` reads the output of the ls command and puts it below the cursor position.
 
-### my vmrc file
+## my vmrc file
 
 open vimrc file:
 ```
@@ -199,7 +199,10 @@ set hls
 
 "d" + "arrpw" more functions
 
-# Basic terms
+# Unix 
+   
+## Basic terms
+   
 bash (vykonavatel textovych prikazu) = comand line interpreter
 
 shell (skorapka, plast)
@@ -207,16 +210,11 @@ shell (skorapka, plast)
 comand (prikaz) = consists of arguments
 
 argument (argument) = 
+   
+flag = 
 
 prompt (vyzva) = several characters on the begening of line
 
-# Basics for Unix
-
-If you want to login to the cluster `ssh yourname@info.mcmaster.ca`
-
-Never run on the head, which is 'youname@infoserv'.
-
-To go into one of the machine, do `rsh info113` or `rsh info114` 
 
 `>` = “ send . . . output to `>` . . . ”
    
@@ -235,6 +233,8 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
 `cd ` \<directory path\> = change a directory
    
 `cd` with no argument = go to home directory
+   
+`chmod [references][operator][modes] filename` = change mode; references = u, g, o, a; operator = +, -, =; modes = r, w, x
 
 `clear` = clean the screen
 
