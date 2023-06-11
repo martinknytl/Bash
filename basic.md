@@ -296,7 +296,7 @@ To go into one of the machine, do `rsh info113` or `rsh info114`
  
 \<control\> + `a` = send prompt on the beginning of line
 
-\<control\> + `d` = 
+\<control\> + `d` = logout
 
 \<control\> + `e` = send prompt on the end of line
 
