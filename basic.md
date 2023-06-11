@@ -1,4 +1,4 @@
-# Login info
+# Login Info
 
 ```
 ssh martin@info.mcmaster.ca
