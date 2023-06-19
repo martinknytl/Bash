@@ -31,7 +31,7 @@ alias grep='grep -P --color=auto'
 ```
 cmd -flags --flags arg arg arg
 
-file names - case sensitivity
+
 top 10  ommands: cp, mv, rm, top, rmdir, mkdir, cat, more
 zip, gy, by, xz, tgz
 top utilitities: headm tail, wc, sort, grep, find, tr, agrep 
@@ -199,7 +199,7 @@ set hls
 
 # Unix 
    
-## Basic terms
+## Basic terms and commands
    
 bash (vykonavatel textovych prikazu) = comand line interpreter
 
@@ -312,9 +312,8 @@ prompt (vyzva) = several characters on the begening of line
    
 \<option\> + \<Left/Right Arrow\> move the prompt backward/forward one word
 
+### Top
 
-
-# Top
 If you want to check the status of the job, do `top`.
 
 To get off the top, do `q`.
@@ -323,14 +322,7 @@ To see the full command running on top, do `top` then `c`.
 
 If you just want to look at your top, do `top -u martin`.
 
-# Installing trinity
-To download the trinity package we typed `Tr`.  This link would have to be updated when an new version becomes available.
-
-To uncompress it, type `tar -zxvf v2.2.0.tar.gz`
-
-Instructions for install are her `https://github.com/trinityrnaseq/trinityrnaseq/wiki/Installing%20Trinity`.
-
-# Using Unix Screen
+### Using Unix Screen
 
 Screen is very useful for running background jobs.
 
@@ -345,6 +337,34 @@ To reconnect with a screen type `screen -r `\<session name\>.
 To kill a screen type `screen -X -S ` \<session name\> ` kill`.
 
 To exit the server type `logout`.
+
+### My bashrc file
+
+Backup the current .bashrc file:
+
+```
+cp ~/.bashrc ~/.bashrc.bak
+```
+
+open my bashrc file in the vim editor: 
+
+```
+vi ~/.bashrc
+```
+
+Apply the changes by sourcing the .bashrc file:
+
+```
+source ~/.bashrc
+```
+
+### Installing trinity
+
+To download the trinity package we typed `Tr`.  This link would have to be updated when an new version becomes available.
+
+To uncompress it, type `tar -zxvf v2.2.0.tar.gz`
+
+Instructions for install are her `https://github.com/trinityrnaseq/trinityrnaseq/wiki/Installing%20Trinity`.
 
 # The data
 
