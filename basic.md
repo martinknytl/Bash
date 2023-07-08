@@ -246,7 +246,7 @@ prompt (vyzva) = several characters on the begening of line
 
 `grep searched_word folder/file name` = search a file
    
-`grep --colour=auto searched_word \<folder/file name\>` = search a file highlighted with colour
+`grep --colour=auto searched_word` \<folder/file name\> = search a file highlighted with colour
 
 "home" and "xxx" directory `ls /home /xxx`= view the content of content of home
 
