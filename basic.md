@@ -244,6 +244,10 @@ prompt (vyzva) = several characters on the begening of line
 
 `fg` transfer job from background to foreground
 
+`grep searched_word folder/file name` = search a file
+   
+`grep --colour=auto searched_word \<folder/file name` = search a file highlighted with colour
+
 "home" and "xxx" directory `ls /home /xxx`= view the content of content of home
 
 `kill` \<job name\> or \<number of process\> or \<%order numberof process\> = Kill a job
@@ -282,10 +286,12 @@ prompt (vyzva) = several characters on the begening of line
    
 `rm *` = remove all files!
 
-`grep searched_word folder/file name` = search a file
-   
-`grep --colour=auto searched_word \<folder/file name` = search a file highlighted with colour
-   
+`scp` = secure copy. For example from graham.computecanada to google disk: `scp knedlo@graham.computecanada.ca:\<directory1 path\> scp knedlo@graham.computecanada.ca:\<directory2 path\> \<final destination path\> ` 
+
+```
+scp knedlo@graham.computecanada.ca:/home/knedlo/projects/rrg-ben/knedlo/gff3_files/XTlongCDS_to_XB_Ssubgenome_plotter.txt knedlo@graham.computecanada.ca:/home/knedlo/projects/rrg-ben/knedlo/gff3_files/XLlongCDS_to_XBgenome_plotter.txt .
+```
+
 `less`
 
 `tee`
