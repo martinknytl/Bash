@@ -286,6 +286,12 @@ prompt (vyzva) = several characters on the begening of line
    
 `rm *` = remove all files!
 
+`rsync` synchonize files between source and a final destination (only the differences between the source and the destination).
+
+```
+rsync -axvH --no-g --no-p knedlo@graham.computecanada.ca:/home/knedlo/projects/rrg-ben/knedlo/2023_clivii_largeni_pygmaeus/raw_data/NS.LH00147_0009.003.IDT_i7_91---IDT_i5_91.AMNH17294_male_R*.fastq.gz .
+```
+
 `scp` = secure copy. For example from graham.computecanada to google disk: `scp knedlo@graham.computecanada.ca:\<directory1 path\> scp knedlo@graham.computecanada.ca:\<directory2 path\> \<final destination path\> ` 
 
 ```
