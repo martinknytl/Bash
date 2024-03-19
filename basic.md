@@ -352,9 +352,15 @@ To exit the server type `logout`.
 
 ### working with blast dabatase
 
-To extract a fasta region from blastable database
+blastn -query xlae_slco3a1.S.fa -db ../../borealis_genome/Xbo.v1_chrs_and_concatscafs_blastable -outfmt 6 -out xlae_slco3a1.S_to_xb
 
-I need to extract region from chromosome 8S:15341892-15343716. This region is candidate region for sex determination in X. largeni and it is gene slco3a1.S
+Search of the slco3a1.S gene in borealis genome:
+
+```
+blastn -query xlae_slco3a1.S.fa -db ../../borealis_genome/Xbo.v1_chrs_and_concatscafs_blastable -outfmt 6 -out xlae_slco3a1.S_to_xb
+```
+
+The best bit score is a region 8S:15341892-15343716 (1829 bp). I need to extract this region from blastable database in fasta. This region is candidate region for sex determination in X. largeni and it is gene slco3a1.S
 
 ```
 blastdbcmd -entry all -range 15341892-15343716 -db ../../borealis_genome/Xbo.v1_chrs_and_concatscafs_blastable -out xxx.fa
