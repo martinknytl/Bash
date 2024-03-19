@@ -350,6 +350,25 @@ To kill a screen type `screen -X -S ` \<session name\> ` kill`.
 
 To exit the server type `logout`.
 
+### working with blast dabatase
+
+To extract a fasta region from blastable database
+
+I need to extract region from chromosome 8S:15341892-15343716. This region is candidate region for sex determination in X. largeni and it is gene slco3a1.S
+
+```
+blastdbcmd -entry all -range 15341892-15343716 -db ../../borealis_genome/Xbo.v1_chrs_and_concatscafs_blastable -out xxx.fa
+```
+
+<all>: The identifier of the entire sequence you want to extract.
+<15341892> and <15343716>: The start and end positions of the region you wish to extract.
+<Xbo.v1_chrs_and_concatscafs_blastable>: The name of your database.
+<xxx.fa>: The desired output filename.
+
+The command extracted 15341892-15343716 positions from each chromosomes. So then open `vi xxx.fa` and remove all sequences that we do not need
+
+file renamed as using vi `xbo_slco3a1.S.fa`
+
 ### My bashrc file
 
 Backup the current .bashrc file:
