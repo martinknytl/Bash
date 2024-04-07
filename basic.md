@@ -14,56 +14,6 @@ You can check how busy a system is using the unix command `top`.  Exit by typing
 ssh knedlo@graham.computecanada.ca
 ```
 
-# Brian lessons
-
-```
-cat file | tr -cs A-Za-z `\n` \ tr A-Z a-z | sort | uniq -c | sort -rn | head -x
-```
-```
-history
-```
-you can see numbers of processes and open it
-
-muscle
-bash (new sheel)
-```
-alias grep='grep -P --color=auto'
-```
-cmd -flags --flags arg arg arg
-
-
-top 10  ommands: cp, mv, rm, top, rmdir, mkdir, cat, more
-zip, gy, by, xz, tgz
-top utilitities: headm tail, wc, sort, grep, find, tr, agrep 
-
-ssh, scp
-
-alias
-
-toss = trashed 
-"cat > /dev/null"
-```
-function fnd() { find . -maxdepth 2 -iname "*$1*"; }
-```
-backslash ignore all aliases, colours etc. ```\ls```
-```
-nano ~/.bashrc
-```
-
-editors:
-
-smart and powerful:
-vi
-emacs
-
-stupid:
-pluma
-xedit
-pico
-nano
-red
-gedit
-
 # VIM editor
 
 to start a new txt file
