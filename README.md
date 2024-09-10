@@ -17,6 +17,9 @@ ssh knedlo@graham.computecanada.ca
 ssh knedlo@cedar.computecanada.ca
 ```
 ```
+ssh knedlo@beluga.computecanada.ca
+```
+```
 ssh knedlo@narval.computecanada.ca
 ```
 
