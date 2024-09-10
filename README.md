@@ -8,13 +8,16 @@ This gets you into the `head` server, which is called infoserv.  Please do not r
 
 You can check how busy a system is using the unix command `top`.  Exit by typing `q`.
 
-# Login to computecanada
+# Login to any of servers of computecanada
 
 ```
 ssh knedlo@graham.computecanada.ca
 ```
 ```
 ssh knedlo@cedar.computecanada.ca
+```
+```
+ssh knedlo@narval.computecanada.ca
 ```
 
 # VIM editor
