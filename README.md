@@ -293,7 +293,7 @@ To see the full command running on top, do `top` then `c`.
 
 If you just want to look at your top, do `top -u martin`.
 
-### Using Unix Screen
+### Using Unix Screen in Info
 
 Screen is very useful for running background jobs.
 
