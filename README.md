@@ -211,6 +211,8 @@ prompt (vyzva) = several characters on the begening of line
 
 `kill` \<job name\> or \<number of process\> or \<%order numberof process\> = Kill a job
 
+`l -l | wc -l` or `ll | wc -l` count files in a directory 
+
 `logout`, `exit` or `control` + `d` = logout
    
 `lpr` = print
