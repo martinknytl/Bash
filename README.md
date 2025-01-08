@@ -331,11 +331,11 @@ Apply the changes by sourcing the .bashrc file:
 source ~/.bashrc
 ```
 
-check shell: `echo $SHELL'
+check shell: `echo $SHELL`
 
-if answer is `/bin/zsh`, then change it by writing `bash`. Then my bashrc file should be active.
+if answer is `/bin/zsh`, then change it to the bash shell by writing `bash`. After that, my bashrc file should be active.
 
-Go back to zsh shell, use `exit`
+For going back to the zsh shell, use `exit`
 
 ### Installing trinity
 
