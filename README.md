@@ -331,6 +331,12 @@ Apply the changes by sourcing the .bashrc file:
 source ~/.bashrc
 ```
 
+check shell: `echo $SHELL'
+
+if answer is `/bin/zsh`, then change it by writing `bash`. Then my bashrc file should be active.
+
+Go back to zsh shell, use `exit`
+
 ### Installing trinity
 
 To download the trinity package we typed `Tr`.  This link would have to be updated when an new version becomes available.
