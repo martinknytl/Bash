@@ -253,6 +253,12 @@ prompt (vyzva) = several characters on the begening of line
 rsync -axvH --no-g --no-p knedlo@graham.computecanada.ca:/home/knedlo/projects/rrg-ben/knedlo/2023_clivii_largeni_pygmaeus/raw_data/NS.LH00147_0009.003.IDT_i7_91---IDT_i5_91.AMNH17294_male_R*.fastq.gz .
 ```
 
+or if I want to synchronize file in my Google disk with files in computecanada:
+
+```
+rsync -axvH --no-g --no-p ./ncbi_dataset.zip knedlo@graham.computecanada.ca:/home/knedlo/projects/rrg-ben/knedlo/clivii_male_genome/
+```
+
 `scp` = secure copy. For example from graham.computecanada to google disk: `scp knedlo@graham.computecanada.ca:\<directory1 path\> scp knedlo@graham.computecanada.ca:\<directory2 path\> \<final destination path\> ` 
 
 ```
