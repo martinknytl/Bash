@@ -11,7 +11,7 @@ You can check how busy a system is using the unix command `top`.  Exit by typing
 # Login to any of servers of computecanada
 
 ```
-ssh knedlo@graham.computecanada.ca
+ssh knedlo@nibi.sharcnet.ca
 ```
 ```
 ssh knedlo@cedar.computecanada.ca
