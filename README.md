@@ -265,6 +265,12 @@ rsync -axvH --no-g --no-p ./ncbi_dataset.zip knedlo@graham.computecanada.ca:/hom
 scp knedlo@graham.computecanada.ca:/home/knedlo/projects/rrg-ben/knedlo/gff3_files/XTlongCDS_to_XB_Ssubgenome_plotter.txt knedlo@graham.computecanada.ca:/home/knedlo/projects/rrg-ben/knedlo/gff3_files/XLlongCDS_to_XBgenome_plotter.txt .
 ```
 
+From Google disk to nibi claster:
+
+```
+scp -r ./* knedlo@nibi.sharcnet.ca:/home/knedlo/projects/rrg-ben/knedlo/
+```
+
 `less`
 
 `tee`
