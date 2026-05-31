@@ -251,9 +251,14 @@ prompt (vyzva) = several characters on the begening of line
 
 ```
 rsync -axvH --no-g --no-p knedlo@graham.computecanada.ca:/home/knedlo/projects/rrg-ben/knedlo/2023_clivii_largeni_pygmaeus/raw_data/NS.LH00147_0009.003.IDT_i7_91---IDT_i5_91.AMNH17294_male_R*.fastq.gz .
+```
 
+If error occurrs, add backslash before asterics:
+
+```
 scp -r martinknytl@Martins-MacBook-Air data-oocyty % scp -r knedlo@nibi.sharcnet.ca:/home/knedlo/projects/rrg-ben/knedlo/mitochondria/bwa_alignment/Oocyty1/\* ./
-
+```
+```
 rsync -axvH --no-g --no-p martinknytl@Martins-MacBook-Air data-oocyty % scp -r knedlo@nibi.sharcnet.ca:/home/knedlo/projects/rrg-ben/knedlo/mitochondria/bwa_alignment/Oocyty1/\* ./
 ```
 
